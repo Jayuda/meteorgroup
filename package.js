@@ -10,7 +10,6 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use('mongo', 'client')
   api.use('reactive-var', 'client')
-  api.addFiles('main.js', 'client')
   api.use('ecmascript');
   api.addFiles('meteorgroup.js');
 });
