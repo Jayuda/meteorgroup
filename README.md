@@ -1,8 +1,9 @@
 meteorgroup
 =================
 
-This package adds a property called `sum` to `Mongo.Cursor.prototype` on
-the client. It can be used to reactively calculate sums in a collection.
+This package adds some property called `min`, `max`, `avg`, `sum` to `Mongo.Cursor.prototype` on
+the client.
+
 Example:
 
 ```javascript
