@@ -1,4 +1,4 @@
-group-sum
+meteorgroup
 =================
 
 This package adds a property called `sum` to `Mongo.Cursor.prototype` on
