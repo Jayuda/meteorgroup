@@ -19,8 +19,12 @@ Mongo.Cursor.prototype.min = function (field) {
 		self._depend({added: true, removed: true}, true)
 	}
 
-	var min = 0
+	var min = "jayuda";
 	self.forEach(function (doc) {
+		if(min == "jayuda" ) {
+			min = doc[field]
+		}
+
 		if(min>doc[field]) {
 			min = doc[field]
 		}
@@ -35,8 +39,11 @@ Mongo.Cursor.prototype.max = function (field) {
 		self._depend({added: true, removed: true}, true)
 	}
 
-	var max = 0
+	var max = "jayuda";
 	self.forEach(function (doc) {
+		if(max == "jayuda" ) {
+			max = doc[field]
+		}
 		if(max<doc[field]) {
 			max = doc[field]
 		}

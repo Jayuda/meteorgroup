@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jayuda:meteorgroup',
-  version: '0.0.4',
+  version: '0.0.5',
   summary: 'Reactive group to sum / min / max / avg data in MiniMongo - client side.',
   git: 'https://github.com/Jayuda/meteorgroup',
   documentation: 'README.md'
